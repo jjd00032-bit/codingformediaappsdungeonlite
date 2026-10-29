@@ -76,6 +76,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4376793541021628029}
   - component: {fileID: 1816372761918220721}
+  - component: {fileID: 6850545385097150809}
   m_Layer: 0
   m_Name: BossRoom
   m_TagString: Untagged
@@ -262,6 +263,21 @@ MonoBehaviour:
   baseHazardCount: 1
   minSpeed: 1
   maxSpeed: 2
+--- !u!114 &6850545385097150809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063911297576008930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b837934ee8bd4e08b76b34b770f32b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DirectorSpawner
+  enemyPrefab: {fileID: 0}
+  healthPackPrefab: {fileID: 0}
+  spawnCheckInterval: 5
 --- !u!1 &3029796450943814638
 GameObject:
   m_ObjectHideFlags: 0
